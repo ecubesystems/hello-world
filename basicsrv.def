@@ -1,0 +1,17 @@
+# ____________________________________________________________________________
+# Copyright 1993 by Open Environment Corporation. Permission to modify and    |
+# distribute this file is granted, provided that this notice remains intact.  |
+# ____________________________________________________________________________
+
+# interface definition file for: basicsrv
+[uuid(00.00.00.00.00.00.00.04) version(1.1)]
+
+interface basicsrv	{
+	int	add	(
+		[in]	int	x,
+		[in]	int	y);
+
+	int	lower2upper (
+		[in]	char	s1[50],
+		[out]	char	s2[50]);
+}
